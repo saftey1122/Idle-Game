@@ -1,9 +1,14 @@
-[gd_scene load_steps=5 format=3 uid="uid://1nxp3i021pbk"]
+[gd_scene load_steps=8 format=3 uid="uid://1nxp3i021pbk"]
 
 [ext_resource type="Texture2D" uid="uid://bcyuodwkq5fl3" path="res://assets/images/Background.png" id="1_0wasx"]
+[ext_resource type="Texture2D" uid="uid://cm1empy0uuy20" path="res://assets/images/3053005_gamesmashdash_pixel-art-training-dummy.png" id="2_61f8a"]
+[ext_resource type="Texture2D" uid="uid://cqfeqhty8i07p" path="res://assets/images/sword-pixel-art-free-vector.png" id="3_gx58s"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_pqo76"]
 texture = ExtResource("1_0wasx")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_3r1x1"]
+texture = ExtResource("2_61f8a")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_61jdc"]
 bg_color = Color(0.129412, 0.6, 0.6, 1)
@@ -37,6 +42,20 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_styles/panel = SubResource("StyleBoxTexture_pqo76")
 
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 2
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -86.0
+offset_top = -481.0
+offset_right = 93.0
+offset_bottom = -88.0
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_styles/panel = SubResource("StyleBoxTexture_3r1x1")
+
 [node name="Top_Bar" type="PanelContainer" parent="."]
 layout_mode = 1
 anchors_preset = 10
@@ -55,3 +74,17 @@ offset_top = -100.0
 grow_horizontal = 2
 grow_vertical = 0
 theme_override_styles/panel = SubResource("StyleBoxFlat_vwkme")
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 2
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 129.0
+offset_top = -42.0
+offset_right = -725.0
+offset_bottom = 56.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_default_cursor_shape = 2
+texture_normal = ExtResource("3_gx58s")

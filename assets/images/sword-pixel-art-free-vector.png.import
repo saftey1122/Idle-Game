@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cm1empy0uuy20"
-path="res://.godot/imported/3053005_gamesmashdash_pixel-art-training-dummy.png-7561778ff4bf7abeed3787f45f291d57.ctex"
+uid="uid://cqfeqhty8i07p"
+path="res://.godot/imported/sword-pixel-art-free-vector.png-75e53246cf4af369b5680effcf8dd651.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/3053005_gamesmashdash_pixel-art-training-dummy.png"
-dest_files=["res://.godot/imported/3053005_gamesmashdash_pixel-art-training-dummy.png-7561778ff4bf7abeed3787f45f291d57.ctex"]
+source_file="res://assets/images/sword-pixel-art-free-vector.png"
+dest_files=["res://.godot/imported/sword-pixel-art-free-vector.png-75e53246cf4af369b5680effcf8dd651.ctex"]
 
 [params]
 
